@@ -22,7 +22,7 @@ function curl($url,$cookie) {
     $head[] = "Keep-Alive: 300";
     $head[] = "Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7";
     $head[] = "Accept-Language: en-us,en;q=0.5";
-    curl_setopt($ch, CURLOPT_USERAGENT, 'Opera/9.80 (Windows NT 6.0) Presto/2.12.388 Version/12.14');
+    curl_setopt($ch, CURLOPT_USERAGENT, 'Opera/9.80 (X11; Linux i686; Ubuntu/14.10) Presto/2.12.388 Version/12.16.2');
     curl_setopt($ch, CURLOPT_ENCODING, '');
     curl_setopt($ch, CURLOPT_COOKIE, $cookie);
     curl_setopt($ch, CURLOPT_HTTPHEADER, $head);
