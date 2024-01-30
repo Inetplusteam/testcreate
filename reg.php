@@ -12,19 +12,21 @@ $email_prefix = [
     'yahoo.com',
     'live.com',
     'rocket.com',
+    'duck.com',
     'outlook.com',
+    'edu.com',
 ];
 
 $randomBirthDay = date('Y-m-d', rand(strtotime('1980-01-01'), strtotime('1995-12-30')));
 $names = [
     'first' => [
-        'JAMES', 'JOHN', 'ROBERT', 'MICHAEL', 'WILLIAM', 'DAVID',
+        'JAMES', 'JOHN', 'ROBERT', 'MICHAEL', 'WILLIAM', 'DAVID', 'JOHNY', 'DINDA',
     ],
     'last' => [
-        'SMITH', 'JOHNSON', 'WILLIAMS', 'BROWN', 'JONES', 'MILLER'
+        'SMITH', 'JOHNSON', 'WILLIAMS', 'BROWN', 'JONES', 'MILLER', 'JOHNY', 'DINDA',
     ],
     'mid' => [
-        'Alexander', 'Anthony', 'Charles', 'Dash', 'David', 'Edward'
+        'Alexander', 'Anthony', 'Charles', 'Dash', 'David', 'Edward', 'Johny', 'Dinda',
     ]
 ];
 $randomFirstName = $names['first'][array_rand($names['first'])];
